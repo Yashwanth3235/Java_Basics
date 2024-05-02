@@ -4,6 +4,7 @@ public class Threaddemo
     {
         Employee e1 = new Employee();
         e1.start();
+        System.out.println(e1.getName());
     }
 }
 
