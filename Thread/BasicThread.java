@@ -1,3 +1,4 @@
+package Thread;
 public class BasicThread
 {
     public static void main(String[] args)

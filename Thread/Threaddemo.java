@@ -1,3 +1,4 @@
+package Thread;
 public class Threaddemo
 {
     public static void main(String[] args)
@@ -5,6 +6,7 @@ public class Threaddemo
         Employee e1 = new Employee();
         e1.start();
         System.out.println(e1.getName());
+        System.err.println("error message");
     }
 }
 
