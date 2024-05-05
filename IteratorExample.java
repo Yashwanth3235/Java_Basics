@@ -24,8 +24,12 @@ public class IteratorExample {
         // Iterate through the ArrayList using the iterator
         while (iterator.hasNext())
         {
-            String bikecompany = iterator.next();
-            System.out.println(bikecompany);
+            // String bikecompany = iterator.next();
+            // System.out.println(bikecompany);
+
+            String temp = iterator.next();
+            System.out.println(temp);
+            
         }
     }
 }
