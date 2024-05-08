@@ -1,4 +1,5 @@
-
+// An enum, or enumeration, in Java is a special data type that allows you to define a collection of named constants. 
+// It provides a way to represent a fixed set of predefined values. Each value in an enum is treated as a separate instance of the enum type.
 public class Enumdemo {
     
     enum Day {
@@ -6,6 +7,8 @@ public class Enumdemo {
     }
     
     public static void main(String[] args) {
+
+
         Day today = Day.FRIDAY;
         
         switch (today) {
@@ -35,3 +38,22 @@ public class Enumdemo {
         }
     }
 }
+
+
+ /**
+  * Enumdemo
+  */
+/*  public class Enumdemo {
+ 
+    enum color {
+        Red, blue, yellow, black, white;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(color.Red);
+        System.out.println(color.blue);
+        System.out.println(color.black);
+        System.out.println(color.yellow);
+
+    }
+ } */
