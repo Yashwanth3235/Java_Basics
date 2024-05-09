@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Hashmapexample {
+    @SuppressWarnings("rawtypes")
     public static void main(String[] args) {
         HashMap <Integer, String> Map = new HashMap<Integer, String>();
         Map.put(1, "Mango"); //put elements in map
