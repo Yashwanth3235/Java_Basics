@@ -1,3 +1,7 @@
+
+// A HashMap in Java is a data structure that stores key-value pairs, providing fast retrieval and insertion operations based on the hash code of the keys. 
+// It allows unique keys and permits null values, utilizing hashing techniques to efficiently manage and access the stored elements.
+
 import java.util.HashMap;
 import java.util.Map;
 
