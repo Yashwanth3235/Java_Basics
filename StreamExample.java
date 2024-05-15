@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 public class StreamExample {
 
     public static void main(String[] args) {
-        List<String> names = Arrays.asList("John", "Jane", "Alice", "Bob", "Charlie");
+        List<String> names = Arrays.asList("John", "Alice", "Bob", "Charlie", "Jane");
 
         // Filter names Starting with J
         List<String> filterednames = names.stream().
@@ -28,6 +28,16 @@ public class StreamExample {
         String concatenatedNames = names.stream()
                                         .collect(Collectors.joining(","));
         System.out.println("concatenated names:" + concatenatedNames);
+
+        names.stream()
+                    .filter(li -> li.startsWith("J"))
+                    .forEach(System.out::println);
+        names.stream()
+                    .map(li -> li.toUpperCase())
+                    .forEach(System.out::println);
+
+
+
 
     }
 }
