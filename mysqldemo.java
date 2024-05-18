@@ -44,11 +44,11 @@ public class mysqldemo {
         // Establish the connection
         try (Connection con = DriverManager.getConnection(jdbcUrl, username, password);
              Statement stmt = con.createStatement();
-             ResultSet rs = stmt.executeQuery("SELECT * FROM student")) {
+             ResultSet rs = stmt.executeQuery("SELECT * FROM friends")) {
 
             // Process the ResultSet
             while (rs.next()) {
-                System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
+                System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3) + " " + rs.getInt(4));
             }
 
         } catch (Exception e) {
