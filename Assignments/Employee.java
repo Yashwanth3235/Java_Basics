@@ -40,6 +40,7 @@ public class Employee {
     System.out.println("Employee Last Name: "+last_name);
 }
 
+// we can create number of parameters to the same method so we call it as method overloading
 // Main method to add objects to the instances
 public static void main(String[] args){
     Employee emp1 = new Employee(1, "Yashwanth", "Kumar");
